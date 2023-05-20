@@ -1,0 +1,1085 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homepage {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: rgb(12, 12, 53);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1% 5%;
+}
+.inner-container {
+  background-color: rgb(12, 12, 53);
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 111%;
+  width: 73%;
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 10%;
+}
+
+.lines {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 60px;
+  color: white;
+  font-size: 50px;
+}
+
+.greybox {
+  background-color: #f5f4f4;
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+}
+.circle img {
+  height: 130%;
+  width: 70%;
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.textarea a {
+  font-weight: 650;
+  padding-top: 30px;
+  padding-bottom: 2px;
+  color: rgb(17, 17, 72);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(17, 17, 72);
+  letter-spacing: 2;
+}
+
+.textarea a:hover {
+  border: none;
+}
+
+.text {
+  padding-top: 5%;
+}
+
+#s1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 315%;
+  font-weight: 300;
+  letter-spacing: 1.5;
+}
+
+#s2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 315%;
+  font-weight: 500;
+  letter-spacing: 1.5;
+}
+
+.para {
+  word-wrap: break-word;
+  text-align: center;
+  width: 43%;
+  line-height: 1.5;
+  margin-top: 1.5%;
+  font-size: 1.2rem;
+}
+
+.para a {
+  color: rgb(17, 17, 72);
+  text-decoration: none;
+  border-bottom: 1.5px solid rgb(17, 17, 72);
+  padding-bottom: 2px;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+.articlecontainer {
+  height: 100%;
+  width: 100%;
+  padding: 0% 7%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.innerarticlecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 43%;
+  height: 800px;
+  margin-top: 5%;
+  z-index: 2;
+}
+
+.headingcontainer {
+  font-size: 70px;
+  padding: 58px 5px;
+}
+
+.imageunderheading {
+  background: url(Images/handsonlaptop.png);
+  background-size: cover;
+  background-position: 8.7% 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.innerarticlecontainer2 {
+  background-color: #f5f4f4;
+  height: 86.3%;
+  width: 43%;
+  margin-top: 12%;
+  padding-top: 5%;
+  z-index: 3;
+}
+
+.imageabovebutton {
+  background: url(Images/manwithlaptop.jpg);
+  background-size: cover;
+  background-position: -90% 50%;
+  height: 83%;
+}
+
+.linkandbutton {
+  font-size: 144%;
+  line-height: 1.6;
+}
+
+.plink {
+  color: rgb(17, 17, 72);
+  text-decoration: none;
+  padding: 2px;
+  border-bottom: 1.5px solid rgb(17, 17, 72);
+}
+
+.plink:hover {
+  border: none;
+}
+
+.pbutton {
+  text-decoration: none;
+  color: rgb(17, 17, 72);
+  border: 2px solid rgb(17, 17, 72);
+  text-transform: uppercase;
+  padding: 11px 50px;
+  width: 130px;
+}
+
+.pbutton:hover {
+  border: none;
+}
+
+.greybox2 {
+  top: 1413;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  z-index: 1;
+  background-color: #f5f4f4;
+  position: absolute;
+  top: 65%;
+}
+
+.largetextcontainer {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8% 17%;
+}
+
+.innerlargetextcontainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100px;
+  margin-right: 60px;
+}
+
+.heading h1 {
+  font-size: 926%;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.heading span {
+  font-weight: 700;
+}
+
+.textwithbutton {
+  padding-top: 100px;
+  padding-right: 150px;
+  font-size: 107%;
+}
+
+.textwithbutton p {
+  line-height: 1.7;
+}
+
+.orangebutton {
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgb(247, 187, 76);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1;
+  position: relative;
+  top: 55px;
+  padding: 10px 50px;
+}
+
+.orangebutton:hover {
+  background-color: orange;
+}
+
+.container2 {
+  height: 80%;
+  width: 100%;
+  padding: 0% 25%;
+}
+
+.innercontainer2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para2 {
+  font-size: 319%;
+  margin-top: 7%;
+}
+
+.innercontainer2 i {
+  color: #43220a;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.para3 {
+  margin-top: 4%;
+  font-size: 202%;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1;
+}
+
+.photoscontainer {
+  height: 120%;
+  width: 100%;
+}
+
+.innerphotoscontainer {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg1.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg2.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg3.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg4.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box5 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg5.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box6 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg6.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box7 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg7.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box8 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg8.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box9 {
+  color: white;
+  height: 46.9%;
+  width: 33.3%;
+  background: url(Images/gallaryimg9.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxtitle {
+  opacity: 0;
+}
+
+.effects:hover {
+  background: orange;
+  transition: 1.5s;
+}
+
+.effects:hover h3 {
+  opacity: 100%;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.paracontainers {
+  height: 100%;
+  width: 100%;
+}
+
+.innerparacontainers {
+  height: 100%;
+  width: 100%;
+}
+
+.headingwithbutton {
+  margin-top: 9%;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thelink {
+  text-decoration: none;
+  background-color: rgb(245, 182, 65);
+  color: white;
+  font-weight: 600;
+  padding: 10px 28px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.thebutton {
+  margin-top: 50px;
+}
+
+.thelink2 {
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1.5px solid rgb(12, 12, 53);
+  color: rgb(17, 17, 72);
+}
+
+.thelink2:hover {
+  border: none;
+}
+
+.thelink:hover {
+  background-color: orange;
+}
+
+.parabox {
+  height: 100%;
+  width: 100%;
+  padding: 5% 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerparaboxcontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.innerparaboxcontainer2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: 1;
+}
+.parabox1 {
+  font-size: 230%;
+  line-height: 1.5;
+}
+
+.parabox1 span {
+  font-size: 100%;
+  font-weight: 700;
+}
+
+.parabox2para {
+  width: 70%;
+  line-height: 2;
+  margin-top: 0;
+  font-size: 120%;
+}
+
+.parabox3button {
+  text-decoration: none;
+  background-color: rgb(245, 182, 65);
+  color: white;
+  font-weight: 600;
+  padding: 10px 28px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.parabox3button:hover {
+  background-color: orange;
+}
+
+.parabox3 {
+  margin-top: 30px;
+}
+
+.innerparaboxcontainer3 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 320px;
+}
+
+.innerparaboxcontainer3para {
+  width: 70%;
+  text-align: right;
+  line-height: 2;
+  font-size: 120%;
+}
+
+.innerfootercontainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.772), rgb(0, 0, 0, 0.5)),
+    url(Images/gallaryimg10.png);
+  background-size: cover;
+  background-position: center;
+  height: 403px;
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 3;
+  font-weight: 600;
+}
+
+.footertext {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.socialicons {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  margin: 20px 20px;
+}
+
+.footerlink {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1.5px solid white;
+  padding-bottom: 1.5px;
+  font-size: 20px;
+}
+
+.linkandtext {
+  color: white;
+}
+
+.footerlink:hover {
+  border: none;
+}
+
+.footertext3 {
+  font-size: 20px;
+}
+
+.footertext4 {
+  text-align: center;
+}
+
+.innerfootercontainer2 {
+  background-color: rgb(32, 32, 70);
+  padding: 3.5% 3%;
+  color: white;
+}
+
+.footerlink2 {
+  color: rgb(207, 207, 252);
+  text-decoration: none;
+  border-bottom: 1.5px solid rgb(189, 189, 245);
+}
+
+.footerlink2:hover {
+  border: none;
+}
+
+.innerfootercontainer3 {
+  text-align: center;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media for potrait large tablets */
+@media (min-width: 767px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .logo {
+    width: 12%;
+  }
+
+  .logo img {
+    height: 80%;
+  }
+
+  .greybox {
+    width: 100%;
+    height: 50%;
+    padding-top: 15%;
+  }
+
+  .circle img {
+    height: 180%;
+    width: 73%;
+  }
+
+  .textarea {
+    width: 100%;
+    padding-top: 15%;
+  }
+
+  .text {
+    padding-top: 15%;
+  }
+  .imageabovebutton {
+    height: 73%;
+    background: url(Images/mediaimage2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .innerarticlecontainer2 {
+    height: 83.3%;
+    padding-top: 20%;
+  }
+
+  .linkandbutton {
+    font-size: 184%;
+    line-height: 2;
+  }
+
+  .greybox2 {
+    height: 37%;
+    width: 100%;
+    top: 54%;
+  }
+
+  .para {
+    width: 60%;
+    font-size: 1.2rem;
+  }
+
+  .articlecontainer {
+    margin-left: 0%;
+  }
+
+  .heading h1 {
+    font-size: 700%;
+  }
+
+  .largetextcontainer {
+    width: 100%;
+    height: 55%;
+    padding: 4% 4%;
+  }
+
+  .textwithbutton {
+    padding-top: 3%;
+    padding-right: 9%;
+    font-size: 1.1rem;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 48%;
+    padding: 0% 14%;
+  }
+
+  .socialicons {
+    width: 30%;
+  }
+
+  .para2 {
+    font-size: 219%;
+  }
+
+  .photoscontainer {
+    width: 100%;
+    padding-left: 16%;
+  }
+
+  .innerphotoscontainer {
+    height: 55%;
+  }
+
+  .parabox {
+    padding: 5% 11%;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box8,
+  .box9 {
+    width: 41.3%;
+    height: 38.9%;
+  }
+
+  .box9 {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .effects:hover h3 {
+    font-size: 130%;
+  }
+
+  .headingwithbutton {
+    margin-top: -22%;
+  }
+
+  .thepara,
+  .thelink {
+    font-size: 1.5rem;
+  }
+}
+
+/*for laptops and large-screen devices*/
+@media (min-width: 1080px) and (max-width: 1920px) {
+  .greybox {
+    padding-top: 10%;
+  }
+
+  .circle img {
+    height: 54vh;
+  }
+
+  .text {
+    padding-top: 14%;
+  }
+
+  #s1,
+  #s2 {
+    font-size: 4.5rem;
+  }
+
+  .para {
+    width: 60%;
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .para2 {
+    margin-top: 3%;
+  }
+
+  .articlecontainer {
+    padding: 0% 4%;
+  }
+
+  .innerarticlecontainer2 {
+    margin-top: 17%;
+    padding-top: 2.5%;
+    height: 50vh;
+  }
+
+  .headingcontainer {
+    font-size: 6rem;
+  }
+
+  .imageabovebutton {
+    background: url(Images/mediaimage2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60.5vh;
+  }
+
+  .greybox2 {
+    height: 51vh;
+  }
+
+  .linkandbutton:not(last-child) {
+    margin-top: 3%;
+  }
+
+  .largetextcontainer {
+    height: 80vh;
+    padding: 8% 7%;
+  }
+
+  .textwithbutton {
+    font-size: 1.5rem;
+    padding-right: 0%;
+  }
+
+  .container2 {
+    padding: 5% 8%;
+    height: 85vh;
+  }
+
+  .headingwithbutton {
+    margin-top: 18%;
+  }
+
+  .thepara {
+    font-size: 1.5rem;
+  }
+
+  .thelink {
+    font-size: 1.5rem;
+  }
+
+  .parabox {
+    padding: 5% 9%;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+  .homepage {
+    height: 80vh;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .logo img {
+    height: 8vh;
+  }
+
+  .circle img {
+    height: 36vh;
+    width: 80%;
+  }
+
+  .greybox {
+    height: 30vh;
+  }
+
+  #s1,
+  #s2 {
+    font-size: 2.1rem;
+  }
+
+  .text {
+    padding-top: 15%;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+
+  .para {
+    width: 85%;
+    margin-top: 3.5%;
+    font-size: 1.1rem;
+  }
+
+  .articlecontainer{
+    padding: 0% 0%;
+  }
+
+  .headingcontainer {
+    font-size: 2.5rem;
+    padding: 17% 0%;
+  }
+
+  .innerarticlecontainer{
+    height: 75vh;
+  }
+
+  .innerarticlecontainer2{
+    padding-top: 0%;
+  }
+
+  .imageunderheading{
+    background: url(Images/mediaimage3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imageabovebutton{
+    background: url(Images/mediaimage4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .greybox2{
+    top: 42%;
+  }
+
+  .linkandbutton{
+    font-size: 1.1rem;
+  }
+
+  .linkandbutton:not(last-child){
+    padding-top: 10%;
+  }
+  
+  .pbutton{
+    padding: 3% 19%;
+  }
+
+  .largetextcontainer{
+    padding: 0% 5%;
+    height: 55vh;
+  }
+
+  .heading{
+    margin-right: 6%;
+  }
+
+  .heading h1{
+    font-size: 4rem;
+  }
+
+  .textwithbutton{
+    padding-right: 2%;
+    font-size: .8rem;
+    padding-top: 6%;
+  }
+
+  .textwithbutton p{
+    line-height: 1.5;
+  }
+
+  .orangebutton{
+    top: 3%;
+    padding: 5% 18%;
+  }
+
+  .container2{
+    padding: 0% 10%;
+    height: 50vh;
+  }
+  
+  .para2 {
+    font-size: 1.4rem;
+    margin-top: 7%;
+  }
+
+  .innercontainer2 i{
+    padding-top: 6%;
+  }
+
+  .para3{
+    font-size: 1.5rem;
+  }
+
+  .photoscontainer{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .innerphotoscontainer{
+    height: 75vh;
+  }
+
+  .headingwithbutton{
+    margin-top: 5%;
+  }
+
+  .parabox{
+    padding: 0% 5%;
+  }
+
+  .parabox1{
+    font-size: 1.5rem;
+  }
+
+  .parabox2para {
+    width: 71%;
+    line-height: 1.1;
+    margin-top: 7%;
+    font-size: 1.2rem;
+  }
+
+  .innerparaboxcontainer3{
+    margin-top: 94%;
+  }
+
+  .innerparaboxcontainer3para{
+    width: 75%;
+    line-height: 1.1;
+  }
+
+  .footertext{
+    padding: 6%;
+  }
+
+  .socialicons{
+    width: 50%;
+  }
+
+  .innerfootercontainer3{
+    display: block;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box8{
+    width: 50%;
+    height: 35%;
+  }  
+
+  .box9{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
